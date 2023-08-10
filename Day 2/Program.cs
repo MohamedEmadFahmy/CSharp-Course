@@ -116,6 +116,8 @@ namespace Day_2
 
             x = 5;
 
+            x = 5;
+
 
         }
     }
