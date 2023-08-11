@@ -1,5 +1,7 @@
 ﻿
 using System.Data;
+using System.Diagnostics;
+
 namespace Day_2
 {
     class Program
@@ -107,18 +109,131 @@ namespace Day_2
 
 
             // You can add brackets fel tayer to define a block scope
+            // {
+            //     int x = 3;
+            //     System.Console.WriteLine(x);
+            // }
 
-            int x = 3;
+            // {
+            //     int x = 5;
+            //     System.Console.WriteLine(x);
 
+            // }
+
+
+            // Arrays:
+
+            // int[] myArr; // 0 bytes have been allocated so far
+
+
+            // myArr = new int[5];
+            // int[] myArr = { 2, 3, 1, 5, 4 };
+
+            // // System.Console.WriteLine(myArr.ToString());
+
+            // System.Console.WriteLine(ToString(myArr));
+
+            // Array.Sort(myArr);
+
+            // System.Console.WriteLine(ToString(myArr));
+
+
+            // int[,] marks = new int[3, 5];
+            // int[,] marks = { { 11, 12, 13, 14, 15 }, { 16, 17, 18, 19, 20 }, { 21, 22, 23, 24, 25 } };
+
+            // for (int i = 0; i < marks.GetLength(0); i++)
+            // {
+            //     for (int j = 0; j < marks.GetLength(1); j++)
+            //     {
+            //         System.Console.Write(marks[i, j] + " ");
+            //     }
+            //     System.Console.WriteLine();
+            // }
+
+            int[] array = { 7, 0, 0, 0, 5, 6, 7, 5, 0, 7, 5, 3 };
+            // System.Console.WriteLine(LongestDistance(array));
+
+            // ReverseWords("this is a test");
+
+            Stopwatch sw = new Stopwatch();
+
+            sw.Start();
+
+            CountOnes();
+
+            sw.Stop();
+
+            System.Console.WriteLine(sw.Elapsed);
+
+
+        }
+
+        public static string ToString(int[] array)
+        {
+            String result = "[";
+            for (int i = 0; i < array.Length; i++)
             {
-                x = 3;
+                result += array[i];
+                if (i != array.Length - 1)
+                {
+                    result += ", ";
+                }
+            }
+            result += "]";
+            return result;
+        }
+        public static int LongestDistance(int[] array)
+        {
+            int max = -1;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                int secondIndex = -1;
+                for (int j = i + 1; j < array.Length; j++)
+                {
+                    if (array[i] == array[j])
+                    {
+                        secondIndex = j;
+                    }
+                }
+                if (secondIndex != -1 && secondIndex - i - 1 > max)
+                {
+                    max = secondIndex - i - 1;
+                }
             }
 
-            x = 5;
+            return max;
+        }
 
-            x = 5;
+        public static void ReverseWords(string text)
+        {
+            string[] wordArray = text.Split(" ");
 
+            Array.Reverse(wordArray);
 
+            string result = String.Join(" ", wordArray);
+
+            System.Console.WriteLine(result);
+        }
+
+        public static void CountOnes()
+        {
+            int count = 0;
+
+            for (int i = 1; i <= 20; i++)
+            {
+                int currentNumber = i;
+                while (currentNumber > 0)
+                {
+                    int digit = currentNumber % 10;
+                    if (digit == 1)
+                    {
+                        count++;
+                    }
+                    currentNumber /= 10;
+                }
+            }
+            System.Console.WriteLine(count);
         }
     }
 }
