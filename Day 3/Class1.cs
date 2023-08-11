@@ -35,7 +35,7 @@ namespace Day_3
             System.Console.WriteLine("");
         }
 
-        public static void Main()
+        public static void MainV2()
         {
             // int x;
             // System.Console.WriteLine("Enter new value: ");
@@ -141,7 +141,7 @@ namespace Day_3
                 sum += array[i];
             }
 
-            System.Console.WriteLine(array.GetHashCode());
+            System.Console.WriteLine(array?.GetHashCode());
             return sum;
 
         }

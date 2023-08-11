@@ -13,3 +13,6 @@ D:\Course C#\Day 3\obj\Debug\net7.0\refint\Day 3.dll
 D:\Course C#\Day 3\obj\Debug\net7.0\Day 3.pdb
 D:\Course C#\Day 3\obj\Debug\net7.0\Day 3.genruntimeconfig.cache
 D:\Course C#\Day 3\obj\Debug\net7.0\ref\Day 3.dll
+D:\Course C#\Day 3\bin\Debug\net7.0\Common.dll
+D:\Course C#\Day 3\bin\Debug\net7.0\Common.pdb
+D:\Course C#\Day 3\obj\Debug\net7.0\Day 3.csproj.CopyComplete

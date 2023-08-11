@@ -1,0 +1,12 @@
+D:\Course C#\Common\bin\Debug\net7.0\Common.deps.json
+D:\Course C#\Common\bin\Debug\net7.0\Common.dll
+D:\Course C#\Common\bin\Debug\net7.0\Common.pdb
+D:\Course C#\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+D:\Course C#\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course C#\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+D:\Course C#\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+D:\Course C#\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+D:\Course C#\Common\obj\Debug\net7.0\Common.dll
+D:\Course C#\Common\obj\Debug\net7.0\refint\Common.dll
+D:\Course C#\Common\obj\Debug\net7.0\Common.pdb
+D:\Course C#\Common\obj\Debug\net7.0\ref\Common.dll
