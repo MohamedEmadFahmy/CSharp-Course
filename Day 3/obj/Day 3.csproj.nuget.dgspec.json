@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Course C#\\Day 3\\Day 3.csproj": {}
+    "d:\\Course C#\\Day 3\\Day 3.csproj": {}
   },
   "projects": {
-    "D:\\Course C#\\Common\\Common.csproj": {
+    "d:\\Course C#\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course C#\\Common\\Common.csproj",
+        "projectUniqueName": "d:\\Course C#\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Course C#\\Common\\Common.csproj",
+        "projectPath": "d:\\Course C#\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "D:\\Course C#\\Common\\obj\\",
+        "outputPath": "d:\\Course C#\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "D:\\Course C#\\Day 3\\Day 3.csproj": {
+    "d:\\Course C#\\Day 3\\Day 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course C#\\Day 3\\Day 3.csproj",
+        "projectUniqueName": "d:\\Course C#\\Day 3\\Day 3.csproj",
         "projectName": "Day 3",
-        "projectPath": "D:\\Course C#\\Day 3\\Day 3.csproj",
+        "projectPath": "d:\\Course C#\\Day 3\\Day 3.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "D:\\Course C#\\Day 3\\obj\\",
+        "outputPath": "d:\\Course C#\\Day 3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -73,8 +73,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Course C#\\Common\\Common.csproj": {
-                "projectPath": "D:\\Course C#\\Common\\Common.csproj"
+              "d:\\Course C#\\Common\\Common.csproj": {
+                "projectPath": "d:\\Course C#\\Common\\Common.csproj"
               }
             }
           }

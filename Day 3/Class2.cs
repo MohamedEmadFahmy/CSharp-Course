@@ -32,7 +32,7 @@ namespace Day_3
 
             System.Console.WriteLine(p3);
 
-            Grades myGrades = Grades.A;
+            // Grades myGrades = Grades.A;
 
         }
     }
