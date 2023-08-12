@@ -5,8 +5,25 @@ namespace Day_4
     class Employee
     {
         public int id;
-        string name;
+        string? name;
         decimal salary;
+
+
+        // Properties: 
+
+        public decimal Salary
+        {
+            get
+            {
+                return salary;
+            }
+
+            internal set
+            {
+                salary = value;
+            }
+        }
+
 
         public string GetName()
         {

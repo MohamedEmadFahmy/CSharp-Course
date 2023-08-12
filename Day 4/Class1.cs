@@ -64,20 +64,37 @@
             // }
 
 
-            Employee e = new Employee();
+            // Employee e = new Employee();
 
-            e.id = 10;
+            // e.id = 10;
 
-            e.SetName("moski");
-
-            System.Console.WriteLine(e);
-
-
-            // use properties for the salary field:
+            // e.SetName("moski");
 
 
 
+            // // use properties for the salary field:
 
+            // e.Salary = 1000;
+
+
+            // System.Console.WriteLine(e);
+            // System.Console.WriteLine(e.Salary);
+
+
+            PhoneBook book = new PhoneBook(8);
+
+            book.SetEntry(0, "a", 123);
+            book.SetEntry(1, "b", 456);
+            book.SetEntry(2, "c", 789);
+
+            // System.Console.WriteLine(book.GetNumber("b"));
+
+
+            // Indexer:
+
+            System.Console.WriteLine(book["a"]);
+
+            
 
         }
     }
