@@ -10,7 +10,7 @@ namespace Day_4
 {
     public class Exceptions
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             // int x, y, z;
 
@@ -46,9 +46,9 @@ namespace Day_4
 
         public static void DoSomethingCodeProtected()
         {
-            int x, y, z;
+            // int x, y, z;
 
-            int.TryParse(System.Console.ReadLine(), out x);
+            // int.TryParse(System.Console.ReadLine(), out x);
 
 
 
