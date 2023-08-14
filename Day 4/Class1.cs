@@ -23,7 +23,7 @@
 
     public class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
 
             // Grade myGrade = Grade.A;
@@ -81,20 +81,46 @@
             // System.Console.WriteLine(e.Salary);
 
 
-            PhoneBook book = new PhoneBook(8);
+            // PhoneBook book = new PhoneBook(8);
 
-            book.SetEntry(0, "a", 123);
-            book.SetEntry(1, "b", 456);
-            book.SetEntry(2, "c", 789);
+            // book.SetEntry(0, "a", 123);
+            // book.SetEntry(1, "b", 456);
+            // book.SetEntry(2, "c", 789);
 
-            // System.Console.WriteLine(book.GetNumber("b"));
+            // // System.Console.WriteLine(book.GetNumber("b"));
 
 
-            // Indexer:
+            // // Indexer:
 
-            System.Console.WriteLine(book["a"]);
+            // System.Console.WriteLine(book["a"]);
 
-            
+
+            // int[] array = { 5, 7, 2, 3, 4, 1, 6, 8 };
+
+            // Array.Sort(array);
+
+            // foreach (int x in array)
+            // {
+            //     System.Console.WriteLine(x);
+            // }
+
+            Employee[] empArray = {
+
+                new Employee(1, "7ooda", 5),
+                new Employee(2, "moski", 100),
+                new Employee(3, "zong", 8),
+
+            };
+
+
+            Array.Sort(empArray);
+
+            foreach (var item in empArray)
+            {
+                System.Console.WriteLine(item);
+            }
+
+
 
         }
     }
