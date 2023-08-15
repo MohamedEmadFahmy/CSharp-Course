@@ -8,7 +8,7 @@ namespace Day_5
     // to see how to create a class that allows for only 1 instance of the object to be created
     public class GCard
     {
-        static GCard singleObj;
+        static GCard? singleObj;
 
         public int Data
         {

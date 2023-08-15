@@ -10,6 +10,16 @@ namespace Day_5
     {
         int id;
         string name;
+        private int v1;
+        private string v2;
+        private int v3;
+
+        public Employee(int v1, string v2, int v3) : this()
+        {
+            this.v1 = v1;
+            this.v2 = v2;
+            this.v3 = v3;
+        }
 
         public int ID { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
