@@ -5,7 +5,7 @@ namespace Day_5
 {
     public class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
 
             // Employee e = new Employee();
