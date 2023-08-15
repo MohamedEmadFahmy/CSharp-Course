@@ -7,7 +7,7 @@ namespace Day_5
 {
     public class GCardV2
     {
-        static GCardV2 singleObj;
+        // static GCardV2 singleObj;
 
         public int Data
         {
