@@ -4,7 +4,19 @@
     {
         public static void Main()
         {
-            System.Console.WriteLine("test");
+            Point p1 = new Point() { x = 5, y = 10 };
+            Point p2 = new Point() { x = 5, y = 10 };
+            Point p3 = p1;
+
+            if (p1.Equals(p2))
+            {
+                System.Console.WriteLine("p1 equals p2");
+            }
+            else
+            {
+                System.Console.WriteLine("p1 doesnt equals p2");
+            }
+
         }
     }
 
