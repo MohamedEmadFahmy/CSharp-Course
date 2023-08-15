@@ -7,12 +7,12 @@ namespace Day_5
 {
     public class Person
     {
-        public string Fname
+        public string? Fname
         {
             get;
             set;
         }
-        public string Lname
+        public string? Lname
         {
             get;
             set;
