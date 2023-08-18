@@ -26,8 +26,7 @@
 
 
             // Note:
-            // == operator is not implemented by default for structs
-
+            // 1) == operator is not implemented by default for structs
 
 
 
