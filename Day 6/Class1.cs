@@ -2,7 +2,7 @@
 {
     public class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             // Point p1 = new Point() { x = 5, y = 10 };
             // Point p2 = new Point() { x = 5, y = 10 };
